@@ -5,6 +5,7 @@ A minimal, fast, and efficient Retrieval‑Augmented Generation (RAG) pipeline b
 This notebook shows how to combine a 4‑bit‑quantized TinyLlama model with semantic retrieval to produce grounded, low‑latency answers using minimal compute.
 
 ✅ Features:
+
 Small Language Model (TinyLlama‑1.1B) in 4‑bit quantization
 
 MiniLM‑L6‑v2 embeddings for fast semantic search
@@ -18,6 +19,7 @@ Retrieves only the most relevant document
 Runs entirely on free Colab GPU
 
 🚀 How It Works: 
+
 Embed documents using MiniLM
 
 Store vectors in ChromaDB
